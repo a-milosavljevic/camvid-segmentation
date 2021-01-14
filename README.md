@@ -1,5 +1,5 @@
 # CamVid Segmentation
-##Deep Learning-based Semantic Segmentation for Autonomous Driving 
+## Deep Learning-based Semantic Segmentation for Autonomous Driving 
 
 To be able to use the code please follow listed instructions:
 
@@ -24,3 +24,19 @@ To be able to use the code please follow listed instructions:
 5) Execute *evaluate.py* to evaluate trained model on the test subset. The results will be placed in *tmp* folder.
 
 6) Check *settings.py* for other training options.
+
+### Project Architecture
+
+Please overview UML diagram that depicts major project components and dependencies:
+
+![UML Component Diagram](/docs/uml_model.png)
+
+The project have two executable scripts: 
+* train.py
+* evaluate.py
+
+There is also several utility scripts with the following responsibilities:
+* settings.py - add project related settings
+* data.py - utility variables, functions, and classes responsible for accessing dataset images
+* model.py - utility functions used to create segmentation model
+* myresunet.py - utility functions used to create custom U-Net/ResNet inspired model

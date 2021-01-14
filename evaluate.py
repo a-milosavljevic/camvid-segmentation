@@ -4,7 +4,6 @@ The script needs model files (e.g. trained_model.h5) to be found in "tmp" folder
 The script will produce predicted labels for test images and "evaluation.csv" file with the appropriate accuracies.
 """
 from model import *
-from data import *
 from math import ceil
 
 

@@ -6,7 +6,6 @@ Ronneberger et al. 2015. U-Net: Convolutional Networks for Biomedical Image Segm
 https://arxiv.org/pdf/1505.04597.pdf
 """
 from data import *
-import tensorflow as tf
 
 
 # Use ResNet preprocessing
