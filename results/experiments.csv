@@ -1,0 +1,14 @@
+Experiment,Segmenation Model,Decoder Scaler,Backbone,Batch Size,Test Set Accuracy
+1,myresunet,,,8,0.8209724030671302
+2,unet,1,resnet34,8,0.8863482985612232
+3,unet,2,resnet34,4,0.8881342293263094
+4,fpn,1,resnet34,4,0.8938616748483397
+5,fpn,1,resnet50,3,0.8785230458772351
+6,fpn,1,resnet18,4,0.8876257807511175
+7,fpn,1,seresnet34,4,0.8981816356361753
+8,linknet,1,seresnet34,4,0.8859282582016283
+9,unet,1,efficientnetb0,4,0.8954897467173524
+10,unet,1,efficientnetb1,4,0.897119589619252
+11,unet,1,efficientnetb2,4,0.9005553123503355
+12,unet,1,efficientnetb3,3,0.8954091460129308
+13,fpn,1,efficientnetb2,3,0.8972053724656762

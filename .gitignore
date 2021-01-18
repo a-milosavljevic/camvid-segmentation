@@ -131,7 +131,7 @@ dmypy.json
 # Project specific
 .idea/
 tmp/
-results/
+results_local/
 data/class_dict.csv
 data/test/
 data/test_labels/

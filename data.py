@@ -1,7 +1,7 @@
 """
 INCLUDE ONLY, DO NOT EXECUTE
 
-Be sure to download dataset from https://www.kaggle.com/carlolepelaars/camvid/download
+Be sure to download dataset from https://www.kaggle.com/carlolepelaars/camvid
 and unpack it to "data" subfolder
 """
 from settings import *

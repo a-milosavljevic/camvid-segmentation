@@ -1,7 +1,7 @@
 """
 Execute this script to train a model specified by "settings.py" script.
 In case of an out of memory problem adjust batch_size in "settings.py".
-Be sure to download dataset from https://www.kaggle.com/carlolepelaars/camvid/download
+Be sure to download dataset from https://www.kaggle.com/carlolepelaars/camvid
 and unpack it to "data" subfolder.
 """
 from model import *

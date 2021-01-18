@@ -1,4 +1,4 @@
-1)  Download data from https://www.kaggle.com/carlolepelaars/camvid/download
+1)  Download data from https://www.kaggle.com/carlolepelaars/camvid
 2)  Extract downloaded files and place them here. Make the following folder structure:
     ```    
     data/test/*.png

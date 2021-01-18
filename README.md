@@ -11,7 +11,7 @@ The presentation slides can be found here:
 
 To be able to use the code please follow listed instructions:
 
-1)  Download data from https://www.kaggle.com/carlolepelaars/camvid/download
+1)  Download data from https://www.kaggle.com/carlolepelaars/camvid
  
 2)  Extract files and place them into *data* folder using the following folder structure:
     ```    
@@ -53,3 +53,12 @@ There is also several utility scripts with the following responsibilities:
 
 For more info about *segmentation_models* lib please check its GitHub page:
 https://github.com/qubvel/segmentation_models
+
+### Experiments
+
+A list of conducted experiments with appropriate accuracy achieved on the test set is reported in 
+[experiments.py](./results/experiments.csv).
+
+The best accuracy of 90.05% (min. 70.86%, max. 97.40%, std. 5.68%) were achieved with U-Net model and EfficientNetB2 backbone. 
+The trained model along with all other outputs for that experiment can be found 
+[here](./results/unet_efficientnetb2_bs4/).
