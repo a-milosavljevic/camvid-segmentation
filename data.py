@@ -47,7 +47,7 @@ for i in range(num_classes):
     shades.append(tmp[i, 0])
 
 # Create lookup table for converting grayscale shades to indexes
-shade2index = np.full((256,), 255, dtype=np.uint8)
+shade2index = np.full((256,), 30, dtype=np.uint8)  # 30 = Void
 for i in range(num_classes):
     shade2index[shades[i]] = i
 
