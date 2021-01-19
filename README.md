@@ -1,7 +1,7 @@
 # CamVid Segmentation
 ## Deep Learning-based Semantic Segmentation for Autonomous Driving 
 
-This project was developed as a part of the presentation that I gave on 
+This project was developed as a part of the presentation that I gave on the 
 [Programming 2.0 webinar: Autonomous driving](https://www.linkedin.com/comm/events/programming2-0webinara-autonomo6755030263207665664/?midToken=AQFX82zhIzGESQ&midSig=0sAnpP38IfB9A1&trk=eml-email_attendee_confirmation_01-null-1-null&trkEmail=eml-email_attendee_confirmation_01-null-1-null-null-20bu8g%7Ekjv6l6my%7Ek1-null-neptune%2Fprofessional%7Eevent%2Eoverview&lipi=urn%3Ali%3Apage%3Aemail_email_attendee_confirmation_01%3BTGiLQOQHQgGgOx7%2FeYPiiw%3D%3D).
 
 The presentation slides can be found here: 
@@ -57,7 +57,7 @@ https://github.com/qubvel/segmentation_models
 ### Experiments
 
 A list of conducted experiments with appropriate accuracy achieved on the test set is reported in 
-[experiments.py](./results/experiments.csv).
+[experiments.csv](./results/experiments.csv).
 
 The best accuracy of 90.05% (min. 70.86%, max. 97.40%, std. 5.68%) were achieved with U-Net model and EfficientNetB2 backbone. 
 The trained model along with all other outputs for that experiment can be found 
